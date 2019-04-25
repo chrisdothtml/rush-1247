@@ -23,4 +23,4 @@ cd packages/foo
 rush lint
 ```
 
-Notice the script has the same output as when it was invoked from the root. The means that script has no way of identifying where it was invoked from
+Notice the script has the same cwd as when it was invoked from the root. Because of this, the script has no way of identifying where it was invoked from
